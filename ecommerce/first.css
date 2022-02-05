@@ -1,0 +1,218 @@
+.head{
+    background-image: url(pexels-jean-van-der-meulen-1457841.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 610px;
+}
+
+.navbar{
+    padding-top: 2px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-left: 130px;
+    font-size: 22px;
+}
+.navbar ul li a{
+    color:black;
+    text-decoration: none;
+}
+.navbar ul li a::after{
+    background: white;
+    height: 3px;
+    content: "";
+    margin: auto;
+    width: 0%;
+    transition: 0.5s;
+    display: block;
+}
+.navbar ul li a:hover::after{
+    width: 100%;
+}
+.content {
+    padding-top: 90px;
+    margin-left: 400px;
+}
+.content h2{
+    color: black;
+    font-size: 35px;
+
+}
+.content p{
+    font-size: 25px;
+    color: black;
+}
+button{
+    margin-left: 80px;
+    width:200px;
+    border: 2px solid #009688;
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background: transparent;
+    color: black;
+}
+button:hover{
+    color:white
+}
+.projects{
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 30px;
+}
+p{
+    color:#777;
+    font-size: 29px;
+    margin-top: -12px;
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.project-col{
+    flex-basis: 31%;
+    background: lightblue;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    transition: 0.5s;
+}
+.project-col h3{
+    padding-bottom: 15px;
+}
+@media(max-width:700px){
+    .row{
+        flex-direction: column;
+    }
+}
+.bedroom{
+    margin: auto;
+    text-align: center;
+}
+.row-bed{
+    display: flex;
+    justify-content: space-between;
+}
+.bedroom-col{
+    flex-basis: 31%;
+}
+img{
+    height: 290px;
+    padding-bottom: 8px;
+}
+.buy{
+    font-size: 20px;
+    text-decoration: none;
+    background: rgb(0, 0, 150);
+    color: yellow;
+}
+.call{
+    text-decoration: none;
+    background: rgb(0, 0, 150);
+    color: yellowgreen
+}
+.dining{
+    text-align: center;
+    margin: auto;
+}
+.kitchen-row{
+    display: flex;
+    justify-content: space-between;
+}
+.kitchen-col{
+    flex-basis: 31%;
+}
+.kitchen-row img{
+    height: 270px;
+}
+.kitchen{
+    padding-top: 70px;
+    margin-bottom: 7%;
+}
+.kitchen h1{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 15px;
+}
+.kitchen p{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 30px;
+}
+.one{
+    text-decoration: none;
+    font-size: 23px;
+    color:black;
+    background: rgba(255, 255, 0, 0.787);
+    margin-left: 40%;
+}
+.balcony h1{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 18px;
+}
+.balcony p{
+    text-align: center;
+    margin: auto;
+    padding-bottom: 25px;
+}
+.balcony-row{
+    display: flex;
+    justify-content: space-between;
+}
+.balcony-col{
+    flex-basis: 31%;
+}
+.price{
+    text-decoration: none;
+    color: black;
+    margin-left: 40%;
+    font-size: 25px;
+    background: rgba(255, 255, 0, 0.787);
+}
+.contact h6{
+    margin-top: 7%;
+    text-align: center;
+    font-size: 25px;
+}
+.hero{
+    background-image: linear-gradient(rgba(0,0,0,0.7), #3551b5de), url(collov-home-design-Tk1pmgowG0w-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 620px;
+    width:100%;
+}
+.form{
+    width:90%;
+    max-width: 600px;
+}
+.input-group{
+    margin-bottom: 30px;
+    position:relative;
+    position: relative;
+}
+input,textarea{
+    padding: 10px;
+    outline: 0;
+    width:100%;
+    border:2px solid #fff;
+    color:#fff;
+    background: transparent;
+    font-size: 20px;
+}
+label{
+    cursor: text;
+    color: white;
+    height: 100%;
+    top:0;
+    left:0
+}
